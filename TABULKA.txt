@@ -1,0 +1,77 @@
+<table width='500' border='0' cellpadding='5'>
+
+<tr>
+
+<td align='center' valign='center'>
+            <img src='img/HJ.jpg' alt='Hovìzí játra'/>
+            <br />
+            <a href="index.php?hj.php">Hovìzí játra 29Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu1;?>" value="0" name="kus1">
+            <br />
+            <a><?php echo $pocetKusu1;?> kusù skladem</a>
+            <br />
+            </td>
+     
+<td align='center' valign='center'>
+            <img src='img/HK.jpg' alt='Hovìzí Kostky'/>
+            <br />
+            <a href="index.php?hk.php">Hovìzí Kostky 89Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu2;?>" value="0" name="kus2">
+            <br />
+            <a><?php echo $pocetKusu2;?> kusù skladem</a>
+            <br />
+            </td>
+     
+        
+<td align='center' valign='center'>
+            <img src='img/HSsD.jpg' alt='Hovìzí svalovina s droby'/>
+            <br />
+            <a href="index.php?hs.php">Hovìzí svalovina s droby 27Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu3;?>" value="0" name="kus3">
+            <br />
+            <a><?php echo $pocetKusu3;?> kusù skladem</a>
+            <br />
+        </td>
+
+    </tr>
+<tr>
+
+<td align='center' valign='center'>
+            <img src='img/VZ.jpg' alt='Koòská svalovina kusová' />
+            <br />
+            <a href="index.php?ks.php">Koòská svalovina 121Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu4;?>" value="0" name="kus4">
+            <br />
+            <a><?php echo $pocetKusu4;?> kusù skladem</a>
+            <br />
+        </td>
+
+<td align='center' valign='center'>
+            <img src='img/SS.jpg' alt='Seleèí sekané' />
+            <br />
+            <a href="index.php?ss.php">Seleèí sekané 69Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu5;?>" value="0" name="kus5">
+            <br />
+            <a><?php echo $pocetKusu5;?> kusù skladem</a>
+            <br />
+        </td>
+        
+<td align='center' valign='center'>
+            <img src='img/MvC.jpg' alt='Makrela v celku' />
+            <br />
+            <a href="index.php?mvc.php">Makrela v celku 89Kè/Kg</a>
+            <br>
+            <input type="number" min="0" max="<?php echo $pocetKusu6;?>" value="0" name="kus6">
+            <br />
+            <a><?php echo $pocetKusu6;?> kusù skladem</a>
+            <br />
+        </td>
+
+</tr>
+
+</table>
